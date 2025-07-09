@@ -1,0 +1,26 @@
+/* Dark theme override for sections with data-section-theme="dark" */
+
+[data-section-theme="dark"] {
+  /* Swap text color to white */
+  --text-color: var(--color-white);
+  /* Ensure section titles are white */
+  --section-title-color: var(--color-white);
+  /* Dark background */
+  background: var(--color-black);
+}
+
+/* Dark theme adjustments for footer and social links */
+[data-section-theme="dark"] .footer-address {
+  /* Use dynamic text color */
+  color: var(--text-color);
+}
+
+[data-section-theme="dark"] .social-link {
+  /* Render social links as block-level */
+  display: block;
+}
+
+[data-section-theme="dark"] .social-link svg {
+  /* Color the SVG icons using the text color variable */
+  fill: var(--text-color);
+}
