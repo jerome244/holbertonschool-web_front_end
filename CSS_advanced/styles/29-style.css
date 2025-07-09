@@ -114,7 +114,7 @@
 }
 
 /* Nav link pseudo-classes */
-.nav-link::before {
+.nav .nav-link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -123,7 +123,7 @@
   width: 0;
   height: 20%;
 }
-.nav-item:hover .nav-link::before {
+.nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
