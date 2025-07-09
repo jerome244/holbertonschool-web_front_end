@@ -1,0 +1,10 @@
+/* Dark theme override for sections with data-section-theme="dark" */
+
+[data-section-theme="dark"] {
+  /* Swap text color to white */
+  --text-color: var(--color-white);
+  /* Ensure section titles are white */
+  --section-title-color: var(--color-white);
+  /* Dark background */
+  background: var(--color-black);
+}
